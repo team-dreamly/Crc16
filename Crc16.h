@@ -29,13 +29,7 @@
 #define CRC16_H
 #define LIBRARY_VERSION_CRC16_H   "0.1.1"
 
-#if defined(ARDUINO) && ARDUINO >= 100
-  #include "Arduino.h"
-#elif defined(ARDUINO)
-  #include "WProgram.h"
-#else
-  #include <cstdint>
-#endif
+#include "Arduino.h"
 
 class Crc16 {
    private:
